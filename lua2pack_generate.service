@@ -1,0 +1,19 @@
+<service name="lua2pack_generate">
+  <summary>Generate spec file using lua2pack command</summary>
+  <description><![CDATA[
+  This service will generate spec file with lua2pack generator
+  ]]>
+  </description>
+  <parameter name="rockspec">
+    <description>--rockspec argument for lua2pack generate</description>
+  </parameter>
+  <parameter name="luacode">
+    <description>--luacode argument for lua2rock generate</description>
+  </parameter>
+  <parameter name="template">
+    <description>--template argument for lua2pack generate</description>
+  </parameter>
+  <parameter name="filename">
+    <description>--filename argument for lua2rock generate</description>
+  </parameter>
+</service>
